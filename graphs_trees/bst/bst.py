@@ -11,16 +11,20 @@ class Node(object):
 
 
 def insert(root, data):
+    # Constraint: Assume we are working with valid ints
+    if root is None:
+        root = Node(data)
+        return root
     if data <= root.data:
         if root.left is None:
-            root.left = Node(data)
+            root.left = insert(root.left, data)
             root.left.parent = root
             return root.left
         else:
             return insert(root.left, data)
     else:
         if root.right is None:
-            root.right = Node(data)
+            root.right = insert(root.right, data)
             root.right.parent = root
             return root.right
         else:

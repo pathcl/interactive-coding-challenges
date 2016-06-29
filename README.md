@@ -1,3 +1,6 @@
+# notebooks
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/pathcl/interactive-coding-challenges)
+
 <br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">

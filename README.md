@@ -446,7 +446,7 @@ interactive-coding-challenges        # Repo
 ├─ ...
 ```
 
-<i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
+<i>\*The notebooks (.ipynb) read/write the associated unit test (.py) file.</i>
 
 
 ## Notebook Installation
@@ -575,6 +575,8 @@ Feel free to contact me to discuss any issues, questions, or comments.
 My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
 
     Copyright 2015 Donne Martin
 

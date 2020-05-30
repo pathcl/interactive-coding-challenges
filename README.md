@@ -6,16 +6,10 @@
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
 
-## April 2017 - Huge Update!
-
-[**Overhauled**](https://github.com/donnemartin/interactive-coding-challenges/pull/153) to now include **120 challenges and solutions** and added [Anki flashcards](#anki-flashcards-coding-and-design).
-
-Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
-
 interactive-coding-challenges
 ============
 
-**Continually updated, interactive and test-driven coding challenges**.
+**120+ continually updated, interactive, and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
 
@@ -33,6 +27,8 @@ Notebooks also detail:
 * Test cases
 * Algorithms
 * Big-O time and space complexities
+
+Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
 
 ## Challenge Solutions
 
@@ -253,7 +249,7 @@ Unit tested, fully functional implementations of the following algorithms:
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Implement n stacks using a single array | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/n_stacks/n_stacks_solution.ipynb) |
 | Implement a stack that keeps track of its minimum element | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack_min/stack_min_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack_min/stack_min_solution.ipynb) |
-| Implement a set of stacks class that wraps a list of capacity-bounded stacks | [Challenge]()│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/set_of_stacks/set_of_stacks_solution.ipynb) |
+| Implement a set of stacks class that wraps a list of capacity-bounded stacks | [Challenge](http://nbviewer.jupyter.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/set_of_stacks/set_of_stacks_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/set_of_stacks/set_of_stacks_solution.ipynb) |
 | Implement a queue using two stacks | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/queue_from_stacks/queue_from_stacks_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/queue_from_stacks/queue_from_stacks_solution.ipynb) |
 | Sort a stack using another stack as a buffer | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/sort_stack/sort_stack_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/sort_stack/sort_stack_solution.ipynb) |
 | Implement a stack | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack/stack_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack/stack_solution.ipynb) |
@@ -451,25 +447,12 @@ interactive-coding-challenges        # Repo
 
 ## Notebook Installation
 
-### IPython Notebook
+### Jupyter Notebook
 
-If you already have Python installed and are familiar with installing packages, you can get IPython Notebook with pip:
-
-```
-pip install "ipython[notebook]"
-```
-
-If you run into an issue about pyzmq, refer to the following [Stack Overflow post](http://stackoverflow.com/questions/24995438/pyzmq-missing-when-running-ipython-notebook) and run:
+Run:
 
 ```
-pip uninstall ipython
-pip install "ipython[all]"
-```
-
-As an alternative, you can also use the provided ```requirements.txt``` file:
-
-```
-pip install -r requirements.txt
+pip install jupyter
 ```
 
 For detailed instructions, scripts, and tools to more optimally set up your development environment, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
